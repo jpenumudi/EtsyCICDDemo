@@ -31,15 +31,15 @@ public class EtsyJob1 {
 			
 			// ENTER EMAIL
 			
-			driver.findElement(By.xpath("//input[@id='join_neu_email_field']")).sendKeys("carrots@gmail.com");
+			driver.findElement(By.xpath("//input[@id='join_neu_email_field']")).sendKeys("carrots1@gmail.com");
 			
 			// ENTER FIRST NAME
 			
-			driver.findElement(By.xpath("//input[@id='join_neu_first_name_field']")).sendKeys("carrot");
+			driver.findElement(By.xpath("//input[@id='join_neu_first_name_field']")).sendKeys("carrot1");
 			
 			// ENTER PASSWORD
 			
-			driver.findElement(By.xpath("//input[@id='join_neu_password_field']")).sendKeys("orange!23");
+			driver.findElement(By.xpath("//input[@id='join_neu_password_field']")).sendKeys("orange!24");
 			
 			// CLICK ON THE REGISTER BUTTON
 			
