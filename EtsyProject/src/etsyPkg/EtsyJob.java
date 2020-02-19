@@ -1,5 +1,6 @@
 package etsyPkg;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class EtsyJob {
 
+	
 	public static void main(String[] args) throws InterruptedException {
+		
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Webdrivers\\chromedriver.exe");	
 		WebDriver driver = new ChromeDriver();
@@ -28,15 +31,15 @@ public class EtsyJob {
 		
 		// ENTER EMAIL
 		
-		driver.findElement(By.xpath("//input[@id='join_neu_email_field']")).sendKeys("Rockababy1.com");
+		driver.findElement(By.xpath("//input[@id='join_neu_email_field']")).sendKeys("carrots@gmail.com");
 		
 		// ENTER FIRST NAME
 		
-		driver.findElement(By.xpath("//input[@id='join_neu_first_name_field']")).sendKeys("Cradlea");
+		driver.findElement(By.xpath("//input[@id='join_neu_first_name_field']")).sendKeys("carrot");
 		
 		// ENTER PASSWORD
 		
-		driver.findElement(By.xpath("//input[@id='join_neu_password_field']")).sendKeys("babies!24");
+		driver.findElement(By.xpath("//input[@id='join_neu_password_field']")).sendKeys("orange!23");
 		
 		// CLICK ON THE REGISTER BUTTON
 		
