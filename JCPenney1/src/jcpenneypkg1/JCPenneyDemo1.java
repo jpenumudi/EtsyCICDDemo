@@ -18,11 +18,11 @@ public class JCPenneyDemo1 {
 		driver.findElement(By.xpath("//div[@class='_2oH0u']")).click();
 		driver.findElement(By.xpath("//form[1]/div[1]/div[1]/div[5]/div[1]/button[1]")).click();
 		
-		driver.findElement(By.name("firstName")).sendKeys("Humpty");
-		driver.findElement(By.id("lastName")).sendKeys("Dumpty");
-		driver.findElement(By.name("phone")).sendKeys("1247859361");
-		driver.findElement(By.id("createAccountEmail")).sendKeys("hdumpty@aol.com");
-		driver.findElement(By.name("password")).sendKeys("sat0nAwa11");
+		driver.findElement(By.name("firstName")).sendKeys("Humptydum");
+		driver.findElement(By.id("lastName")).sendKeys("Dumptyhum");
+		driver.findElement(By.name("phone")).sendKeys("1247859369");
+		driver.findElement(By.id("createAccountEmail")).sendKeys("hdumpty12@aol.com");
+		driver.findElement(By.name("password")).sendKeys("sat0nAwa1112");
 		
 		System.out.println("Account Creation is Successful!!");
 		
